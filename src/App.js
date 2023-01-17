@@ -26,8 +26,7 @@ function App() {
             <div className={'secondContainer'}>
                 <Rickandmorty
                     itemId={'itemId'}
-                    // name={'arrElement.name'}
-                    // species={''}
+
                 />
             </div>
 

@@ -366,18 +366,18 @@ function Rickandmorty(props) {
     }
     return
 
-    (
+    // (
 
-
-        <div>
-            <div>{itemId}</div>
-            <div>{name}</div>
-            <div>{status}</div>
-            <div>{species}</div>
-            <div>{gender}</div>
-            {/*<img src={} alt={}/>*/}
-        </div>
-    )
+        //
+        // <div>
+        //     <div>{itemId}</div>
+        //     <div>{name}</div>
+        //     <div>{status}</div>
+        //     <div>{species}</div>
+        //     <div>{gender}</div>
+        //     {/*<img src={} alt={}/>*/}
+        // </div>
+    // )
 
 }
 
