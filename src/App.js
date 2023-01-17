@@ -1,6 +1,7 @@
 import './App.css';
 import Simpsons from "./components/simpsons/simpsons";
 import Rickandmorty from "./components/rickandmorty/rickandmorty";
+
 function App() {
     return (
         <div className="App">
@@ -23,11 +24,11 @@ function App() {
             </div>
 
             <div className={'secondContainer'}>
-               <Rickandmorty
-                itemId={'arrElement.id'}
-                // name={'arrElement.name'}
-                // species={''}
-               />
+                <Rickandmorty
+                    itemId={'itemId'}
+                    // name={'arrElement.name'}
+                    // species={''}
+                />
             </div>
 
         </div>

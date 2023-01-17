@@ -356,19 +356,26 @@ function Rickandmorty(props) {
     ];
 
     for (const arrElement of arr) {
-        console.log(arrElement);
+        // console.log(arrElement);
         let itemId = arrElement.id
-
+        console.log(itemId);
+        let name = arrElement.name
+        let status = arrElement.status
+        let species = arrElement.species
+        let gender = arrElement.gender
     }
-    return (
+    return
+
+    (
+
 
         <div>
             <div>{itemId}</div>
-            {/*<div>{arrElement.name}</div>*/}
-            {/*<div>{arrElement.status}</div>*/}
+            <div>{name}</div>
+            <div>{status}</div>
             <div>{species}</div>
             <div>{gender}</div>
-            {/*// <img src={} alt={}/>*/}
+            {/*<img src={} alt={}/>*/}
         </div>
     )
 
