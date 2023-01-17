@@ -6,26 +6,35 @@
 .userCard{
     display: flex;
     flex-direction: row;
-    width: 40%;
+    width: 60%;
+    height: 200px;
     border: 2px solid black;
     box-sizing: border-box;
     margin-bottom: 5px;
 }
 .headerSecondBlock{
+    height: 200px;
+    width: 30%;
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    margin:0;
+
 }
 .descList{
     height: 100%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     box-sizing: border-box;
+    font-size: 20px;
 }
 .picSecondBlock{
-    width: 170px;
+    width: 30% ;
     height: 100%;
     display: flex;
     box-sizing: border-box;
+
 }
