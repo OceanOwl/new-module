@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 450px;
+    overflow: hidden;
+}
+.pic{
+    height: 200px;
+    width: 200px;
+}
+.someText{
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.simpsonCard{
+    height: 450px;
+}
