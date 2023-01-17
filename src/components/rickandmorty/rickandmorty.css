@@ -3,7 +3,8 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.userCard{
+
+.userCard {
     display: flex;
     flex-direction: row;
     width: 60%;
@@ -12,17 +13,19 @@
     box-sizing: border-box;
     margin-bottom: 5px;
 }
-.headerSecondBlock{
+
+.headerSecondBlock {
     height: 200px;
     width: 30%;
     font-size: 14px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    margin:0;
+    margin: 0;
 
 }
-.descList{
+
+.descList {
     height: 100%;
     width: 30%;
     display: flex;
@@ -31,10 +34,15 @@
     box-sizing: border-box;
     font-size: 20px;
 }
-.picSecondBlock{
-    width: 30% ;
+
+.picSecondBlock {
+    width: 30%;
     height: 100%;
     display: flex;
     box-sizing: border-box;
 
+}
+h2{
+    display: flex;
+    justify-content: center;
 }

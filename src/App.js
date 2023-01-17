@@ -1,6 +1,7 @@
 import './App.css';
 import Simpsons from "./components/simpsons/simpsons";
 import './components/rickandmorty/rickandmorty.css'
+
 function App() {
     let arr = [
         {
